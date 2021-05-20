@@ -1,0 +1,172 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: Poppins, sans-serif;
+}
+
+body {
+	background-color: #F5F5F5;
+	margin: 0px 0px 25px;
+}
+
+b {
+	font-weight: 600;
+}
+
+p {
+	font-size: 16px;
+	line-height: 25px;
+	margin: 3.5px;
+}
+
+a {
+	text-decoration: none;
+	font-family: Poppins, sans-serif;
+	font-weight: bold;
+	color: white;
+	display: block;
+
+}
+
+a:hover {
+	color: #222222;
+}
+
+h1 {
+	text-align: center;
+}
+
+img {
+	
+
+}
+
+tr, td  {
+	border: 1px solid black;
+
+}
+
+td {
+	padding: 5px;
+}
+
+thead {
+	background-color: #009EDC;
+	color: #FFF;
+	font-weight: bold; 
+}
+
+table {
+	margin: 25px auto;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+ul {
+	list-style: none;
+}
+
+h3 {
+	padding: 7px 10px;
+}
+
+li {
+	padding: 
+}
+
+li:before {
+	content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+.imgz{
+	border: 1px solid #000;
+	height: 200px;
+	box-shadow: 5px 5px 5px #000;
+
+}
+
+.wrap {
+	opacity: .25;
+	z-index: -1;
+	position: fixed;
+	background: url(wrap.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.main {
+	width: 50%;
+	margin: 0px auto 0px;
+	
+}
+
+.title {
+	display: flex;
+	justify-content: space-between;
+	color: #FFF;
+	position: sticky;
+	top: 0;
+	background-color: #009EDC;
+	box-shadow: 5px 5px 15px #777777;
+	padding: 0px 30px
+}
+
+.imgcontainer {
+	margin: 5px 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.container {
+	padding: 5px;
+	margin: 10px auto;
+}
+
+.dropbtn {
+	margin: 5px auto;
+}
+
+
+.dropdown {
+	padding: 0px 15px;
+	position: relative;
+	display: inline-block;
+}
+
+.dropdownbox {
+	display: none;
+	position: absolute;
+	background-color: #009EDC;
+	z-index: 1;
+	width: 150px;
+	box-shadow: 5px 5px 15px #777777;
+	padding: 5px 0px
+}
+
+.dropdownbox a {
+	text-align: center;
+	color: white;
+}
+
+.dropdownbox a:hover {
+	color: #222222;
+}
+
+.dropdown:hover .dropdownbox {
+	display: block;
+}
+
+.nav {
+	display: flex;
+	margin: 0px 0px 0px 310px;
+
+
+}
+

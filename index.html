@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chapter 4</title>
+	<style type="text/css"></style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="title">
+	<a href="https://javierleenardtroy.wixsite.com/glossary"><h1>HOME</h1></a>
+	<h1 class="chapter">Chapter 4: Cable Testing</h1>
+	
+	<div class="nav">
+		<div class="dropdown">
+			<a href=""><h2 class="dropbtn">CHAPTER 4</h2></a>
+			<div class="dropdownbox">
+				<a href="https://cip1101-peduche-itad.000webhostapp.com/HTML/CIT/MODULE%201/ModuleOne.html#top">Chapter 1</a>
+				<a href="">Chapter 2</a>
+				<a href="https://cip1101-panlaqui-itad.000webhostapp.com/HTML/chapter_3.html">Chapter 3</a>
+				
+				<a href="">Chapter 5</a>
+			</div>
+		</div>
+		<a href="https://cip1101-panlaqui-itad.000webhostapp.com/HTML/chapter_3.html"><h3>Previous</h3></a>
+		<a href=""><h3>Next</h3></a>
+		
+	</div>
+</div>
+<div class="main">
+	<div class="wrap"></div>
+	
+	<div class="container">
+		<h2>Waves</h2>
+		<p>is a energy traveling from point to point</p>
+		<p><b>Wave</b> or <b>signal amplitude</b>, represents the height and is measured in <em>volts</em></p>
+		<p><b>Voltage waves</b> on copper media (light waves in optical fiber) use alternating electric and magnetic fields called the electromagnetic spectrum</p>
+		<p><b>Wave period</b> is the amount of time to complete one cycle (past a given point) and measured in seconds</p>
+		<p><b>Wave frequency</b> is the number of complete cycles per second, measured in Hertz</p>
+		<p>If a disturbance is caused, and involves a fixed, predictable duration, then it is called a <em>pulse</em>. <b>Pulses</b> determine the value of the data being transmitted</p>
+		<div class="imgcontainer">
+			<img class="imgz" src="wave.png">
+		</div>
+	</div>
+	<div class="container">
+		<h2>2 Kinds of Waves</h2>
+		<p><b>Sine waves</b> are mathematical functions with certain characteristics</p>
+		<p>they are periodic, (repeat the same pattern at regular intervals) and continuously varying(no two adjacent points have the same value).  They are graphical representations of natural occurrences changing over time</p>
+		<p><b>Square waves</b> are periodic, however do not vary with time. They hold a value for some time, then suddenly changes to a different value.  They represent digital signals or pulses</p>
+	</div>
+
+	<div class="container">
+		<h2>Viewing Signals in Time and Frequency</h2>
+		<p><b>Oscilloscope</b> is an electronic device used to view electrical signals, such as voltage waves and pulses</p>
+		<div class="imgcontainer">
+			<img class="imgz" src="osci.jpeg">
+		</div>
+		<p>The horizontal (x-axis) shows <em>time</em>, and the vertical (y-axis) shows <em>voltage</em>  or <em>current</em></p>
+		<p>There are usually two y-axis inputs, so two waves can be observed and measured at the same time</p>
+		<p>Analyzing signals using the oscilloscope is called time-domain analysis because the x-axis represents time</p>
+	</div>
+	<div class="container">
+		<h2>Noise in Time and Frequency</h2>
+		<p><b>Noise</b> usually refers to undesirable sounds, however, noise in communications is undesirable</p>
+		<p>Possible sources for <em>noise</em>: nearby cables which carry data signals–RFI, is noise from other signals transmitted nearby–EMI, is noise from nearby sources such as motors and lights–Laser noise at the transmitter or receiver end of an optical (photonic) signal</p>
+		<p>Noise affecting all transmission frequencies is called <b>white</b> noise</p>
+		<p>Noise affecting only a small range of narrowband frequencies is called <b>narrowband interference</b></p>
+	</div>
+	<div class="container">
+		<h2>Bandwidth</h2>
+		<p>Two ways of considering bandwidth important to LANs is <em>analog</em> and <em>digital</em> bandwidth</p>
+		<p><b>Analog bandwidth</b> describes the frequencies transmitted by a radio station or electronic amplifier.  The unit of measurement is Hertz</p>
+		<p><b>Digital bandwidth </b>measures how much information can flow from one place to another in a given amount of time.  The unit of measurement is <em>bits per second</em></p>
+		<table>
+			<thead>
+				<tr>
+					<td>Unit of Digital Bandwidth</td>
+					<td>Abbreviation</td>
+					<td>Equivalance</td>
+				</tr>
+			
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						Bits per Second
+					</td>
+					<td>
+						bps
+					</td>
+					<td>
+						1 bps = fundamental unit of bandwidth
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Kilobits per Second
+					</td>
+					<td>
+						kbps
+					</td>
+					<td>
+						1 kbps = 1,000 bps
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Megabits per Second
+					</td>
+					<td>
+						Mbps
+					</td>
+					<td>
+						1 Mbps = 1,000,000 bps = 1,000 kbps
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Gigabits per Second
+					</td>
+					<td>
+						Gbps
+					</td>
+					<td>
+						1 Gbps = 1,000,000,000 bps = 1,000 Mbps
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="container">
+		<h2>Attenuation & Insertion Loss on Copper</h2>
+		<p><b>Attenuation</b> is the decrease in signal amplitude over the length of a link.  Long cable runs and high signal frequencies contribute to greater signal attenuation</p>
+		<p><b>Attenuation</b> on a cable is measured in <em>decibels</em> (dB), using negative numbers.  Smaller negative dB values are an indication of better link performance</p>
+		<p><b>Impedance</b> is the measurement of resistance of the cable to alternating current (AC), and measured in ohms.  If a connector is improperly installed on a cable, it has a different impedance value than the cable, which is called <em>impedance mismatch</em></p>
+		<p><b>Impedance mismatch</b> causes attenuation because a portion of the transmitted signal is reflected back to the transmitting device, rather than continuing to the receiver</p>
+		<p>The combination of the effects of signal attenuation and impedance mismatch on a communications link is called <em>insertion loss</em></p>
+	</div>
+	<div class="container">
+		<h2>Sources of Noise on Copper Media</h2>
+		<p><b>Noise</b> is electrical energy on the cable making it difficult for a receiver to interpret the data from the transmitter</p>
+		<p><b>Crosstalk</b> involves the transmission of signals from one wire to a nearby wire.  Adjacent wires in the cable act like antennas, receiving the transmitted energy, interfering with data on those wires</p>
+		<p><b>Cable testers</b> measure crosstalk by applying a test signal on one wire pair.  The tester then measures the amplitude of the unwanted crosstalk signals induced on the other wire pairs in the cable</p>
+		<div class="imgcontainer">
+			<img class="imgz" src="rj45.jfif">
+		</div>
+	</div>
+	<div class="container">
+		<h2>Types of Crosstalk</h2>
+		<p><b>NEXT (Near-end Crosstalk)</b> –computed as the ratio of voltage amplitude between the test signal and the crosstalk signal when measured from the same end </p>
+		<div class="imgcontainer">
+			<img class="imgz" src="next.png">
+		</div>
+		<p><b>FEXT (Far-end Crosstalk)</b> – crosstalk occurring further away from the transmitter, creating less noise on the cable as NEXT</p>
+		<div class="imgcontainer">
+			<img class="imgz" src="fext.png">
+		</div>
+		<p><b>PSNEXT (Power Sum NEXT)</b> – measures the cumulative effect of NEXT from all wire pairs in the cable.  PSNEXT is computed for each wire pair based on the NEXT effects of the other three wire pairs</p>
+		<div class="imgcontainer">
+			<img class="imgz" src="psnext.png">
+		</div>
+	</div>
+	<div class="container">
+		<h2>Cable Testing Standards</h2>
+		<p>Ten primary test parameters to be verified for a cable link to meet TIA/EIA standards are:</p>
+		<ul>
+			<li>Wire map</li>
+			<li>Insertion loss</li>
+			<li>NEXT – Near-end crosstalk</li>
+			<li>PSNEXT – Power sum near-end crosstalk</li>
+			<li>ELFEXT – Equal-level far-end crosstalk</li>
+			<li>PSELFEXT – Power sum equal-level far-end crosstalk</li>
+			<li>Return loss</li>
+			<li>Propagation delay</li>
+			<li>Cable length</li>
+			<li>Delay skew</li>
+		</ul>
+	</div>
+	<div class="container">
+		<h2>Wire Map Test</h2>
+		<p>Ethernet standards specify each of the pins on the RJ-45 connector have a <em>specific</em> purpose</p>
+		<p>A <b>NIC</b> transmits on pins 1 and 2, and receives on pins 3 and 6</p>
+		<p><b>Wire map tests</b> ensure no open or short circuits exist on the cable</p>
+		<p><b>Wire map tests</b> also ensure all 8 wires are connected to the correct pins on both ends of the cable</p>
+		<div class="imgcontainer">
+			<img class="imgz" src="good.png">
+			<img class="imgz" src="open.png">
+			<img class="imgz" src="short.png">
+		</div>
+	</div>
+	<div class="container">
+		<h2>Other Test Parameters</h2>
+		<p><b>Insertion loss</b> is measured in decibels at the far end of the cable</p>
+		<p>Crosstalk is measured in four separate tests:</p>
+		<p>A cable tester measures NEXT by applying a test signal on one cable pair and measuring the amplitude of the crosstalk received by the other cable pairs</p>
+		<p><b>ELFEXT</b> measures <em>FEXT</em>, and is expressed in decibels as the difference between the measured FEXT and the insertion loss of the wire pair whose signal is disturbed by the FEXT</p>
+		<p><b>Return loss</b> is a measure, in decibels, of reflections that are caused by impedance mismatches at all locations along with the link.  The main problem is that the signal echoes caused by the reflections from the impedance mismatches will strike the receiver at different time intervals causing jitter</p>
+	</div>
+</div>
+</body>
+</html>
